@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 25px;
+  border: 1px solid #f1f1f1;
+  width: 40;
+  height: auto;
+}
+
+.header {
+  background-color: #f1f1f1;
+  color: black;
+  display: block;
+  width: 94%;
+  align-items: center;
+}
+
+.cover-photo-container {
+  display: flex;
+  justify-content: center;
+  width: max-content;
+}
+
+.cover-photo {
+  width: 42%;
+  height: auto;
+  padding: 0;
+}
+
+.header-fixed-top {
+  position: fixed;
+  z-index: 999;
+}
+
+.profile-details {
+  position: relative;
+  display: flex;
+  top: 0vw;
+}
+
+.follow {
+  font-weight: bold;
+}
+
+.following {
+  background-color: white;
+  color: rgb(22, 155, 207);
+  font-size: 16px;
+  border: 1px solid skyblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.avatar-image {
+  width: 50%;
+  height: auto;
+  border-radius: 9999px;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.tweet-avatar {
+  width: 10%;
+  height: auto;
+  border-radius: 9999px;
+}
